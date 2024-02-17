@@ -1,0 +1,497 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<< Title >>-->
+    <title>Matias - Personal Portfolio Template</title>
+    <!--<< Favcion >>-->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- ------- magnific-popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- ------- aos animation -->
+    <link rel="stylesheet" href="css/aos.css">
+    <!-- -------- icon -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css" crossorigin="anonymous">
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="js/tailwindCongfig.js"></script>
+
+    <!-- ---- main css -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="header relative w-full border-b border-b-clr_cusborder z-10 xxl:after:block after:hidden after:absolute after:right-[calc(20%-30px)] after:top-0 after:w-[1px] after:h-full after:content:[''] after:bg-clr_cusborder xxl:before:block before:hidden before:absolute before:left-[calc(15%-40px)] before:top-0 before:w-[1px] before:h-full before:content:[''] before:bg-clr_cusborder">
+        <div class="xxl:max-w-[1805px] bg-black xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+          <div class="flex justify-between items-center w-full relative py-5">
+            <div class="main__logo">
+              <a href="index.html" class="block xl:w-[150px] w-[100px]">
+                <img src="https://cdn.techinasia.com/data/images/1fcca5b703b26d8961131a3928126ca2.jpg" alt="logo" class="w-20 h-22 object-contain">
+              </a>
+            </div>
+            <ul class="menus flex lg:flex-row flex-col lg:items-center opacity-0 invisible lg:opacity-100 lg:visible lg:gap-[14px] gap-0 fixed z-50 lg:static top-20 left-0 w-full lg:w-auto bg-clr_subtitle min-h-screen lg:min-h-full lg:bg-transparent duration-500 origin-top px-3">
+              <li class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4">
+                <a href="./index.html" class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base">
+                  Home
+                </a>
+              </li>
+              <li class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4">
+                <a href="./index.html#about" class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base">
+                  About
+                </a>
+              </li>
+              <li class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4">
+                <a href="./index.html#projects" class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base">
+                  Work
+                </a>
+              </li>
+              <li class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4 group/dropdown dropdown">
+                <a href="./index.html#services" class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base">
+                  Services
+                </a>
+                <ul class="lg:absolute lg:block hidden static top-[50px] left-0 w-[250px] px-5 py-2 leading-9 z-50 transition-all lg:bg-white lg:shadow-mainShadow justify-center gap-[5px] before:absolute before:content-[''] before:-top-[17.6px] before:left-[26px] before:w-0 before:h-0 before:border-l-[13px] before:border-l-transparent before:border-r-[13px] before:border-r-transparent lg:before:border-b-[18px] lg:before:border-b-white lg:opacity-0 lg:invisible lg:translate-y-11 duration-500 group-hover/dropdown:opacity-100 group-hover/dropdown:visible group-hover/dropdown:translate-y-0 dropdownItem">
+                  <li>
+                    <a href="./services.html" class="lg:text-clr_body text-white duration-500 hover:text-clr_base hover:pl-3 block">
+                      Services
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./serviceDetails.html" class="lg:text-clr_body text-white duration-500 hover:text-clr_base hover:pl-3 block">
+                      Service Details
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4">
+                <a href="./index.html#testimonial" class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base">
+                  TESTIMONIAL
+                </a>
+              </li>
+              <li class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4 group/dropdown dropdown">
+                <a href="./index.html#blog" class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base">
+                  Blog
+                </a>
+                <ul class="lg:absolute lg:block hidden static top-[50px] left-0 w-[250px] px-5 py-2 leading-9 z-50 transition-all lg:bg-white lg:shadow-mainShadow justify-center gap-[5px] before:absolute before:content-[''] before:-top-[17.6px] before:left-[26px] before:w-0 before:h-0 before:border-l-[13px] before:border-l-transparent before:border-r-[13px] before:border-r-transparent lg:before:border-b-[18px] lg:before:border-b-white lg:opacity-0 lg:invisible lg:translate-y-11 duration-500 group-hover/dropdown:opacity-100 group-hover/dropdown:visible group-hover/dropdown:translate-y-0 dropdownItem">
+                  <li>
+                    <a href="./blogs.html" class="lg:text-clr_body text-white duration-500 hover:text-clr_base hover:pl-3 block">
+                      Blog
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./blogDetails.html" class="lg:text-clr_body text-white duration-500 hover:text-clr_base hover:pl-3 block">
+                      Blog Details
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4">
+                <a href="./contact.html" class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base">
+                  Contact
+                </a>
+              </li>
+            </ul>
+            <div class="flex items-center gap-4">
+              <a href="" class="flex items-center gap-2 xxl:px-[26px] xxl:py-[19px] lg:px-[16px] lg:py-[9px] px-[11px] py-[7px] font-medium text-lg capitalize relative bg-clr_base overflow-hidden rounded-[5px] transition-all text-clr_subtitle max-h-[58px] before:absolute before:content-[''] before:bottom-full before:bg-[#aad302] before:left-0 before:w-full before:h-full before:duration-500 before:bg-opacity-80 hover:before:bottom-0">
+                <span class="text-sm xl:text-lg z-10 relative duration-500">
+                  Let's Talk
+                </span>
+                <span>
+                  <i class="bi bi-arrow-right text-xl z-10 relative duration-500"></i>
+                </span>
+              </a>
+              <div class="header-bar lg:hidden">
+                <i class="bi bi-x text-[32px] text-clr_white cursor-pointer hidden menuCloseIcon"></i>
+
+                <i class="bi bi-list text-[32px] text-clr_white cursor-pointer menuActiveIcon"></i>
+              </div>
+              <div class="drawerActiveIcon xl:w-[58px] xl:h-[58px] w-[39px] h-[39px] rounded-md flex items-center justify-center bg-clr_white cursor-pointer">
+                <i class="bi bi-list lg:text-[32px] text-[22px] text-clr_title"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- --------- Drawer -->
+          <div class="w-80 h-full fixed z-50 top-0 duration-500 overflow-y-scroll bg-black -right-80 drawer">
+            <div class="flex justify-center items-center w-10 h-10 m-[10px] bg-clr_base ml-auto p-[5px] rounded-md hover:cursor-pointer drawerCloseIcon">
+              <i class="bi-x-lg text-[22px] text-clr_mtitle"> </i>
+            </div>
+            <div class="grid py-10 px-5">
+              <a href="" class="mb-5">
+                <img src="images/logo.png" alt="img">
+              </a>
+              <p class="text-sm mb-10 text-clr_pra break-words leading-normal">
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                consectetur, aliquam quaerats voluptatem. Ut enim ad minima
+                veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem
+                velit esse quam nihil
+              </p>
+              <div class="grid gap-6 mb-10">
+                <div>
+                  <div>
+                    <span class="block mb-2 uppercase text-clr_pra font-bold text-sm">
+                      address
+                    </span>
+                    <span class=" capitalize text-white font-medium leading-[120%]">
+                      Victoria Street London,
+                    </span>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <span class="block mb-2 uppercase text-clr_pra font-bold text-sm">
+                      email
+                    </span>
+                    <a href="" class=" capitalize text-white font-medium leading-[120%]">
+                      <span class="__cf_email__" data-cfemail="1875796c71796b21212158367b7775">[email�&nbsp;protected]</span>
+                    </a>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <span class="block mb-2 uppercase text-clr_pra font-bold text-sm">
+                      call now
+                    </span>
+                    <a href="" class=" capitalize text-white font-medium leading-[120%]">
+                      +98 4758 2154 021
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:mb-20 mb-14 relative">
+                <ul class="social flex gap-[14px]">
+                  <li>
+                    <a href="" class="w-[45px] h-[45px] rounded-full bg-clr_base border border-clr_base flex justify-center items-center">
+                      <i class="bi-facebook text-clr_title"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="w-[45px] h-[45px] rounded-full bg-clr_base border border-clr_base flex justify-center items-center">
+                      <i class="bi-twitter text-clr_title"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="w-[45px] h-[45px] rounded-full bg-clr_base border border-clr_base flex justify-center items-center">
+                      <i class="bi-linkedin text-clr_title"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="w-[45px] h-[45px] rounded-full bg-clr_base border border-clr_base flex justify-center items-center">
+                      <i class="bi-youtube text-clr_title"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <a href="" class="flex justify-center items-center gap-2 font-medium px-[30px] pt-5 pb-[21px] text-lg leading-[120%] capitalize relative bg-clr_base overflow-hidden rounded-[5px] duration-500 text-clr_subtitle before:absolute before:content-[''] before:bottom-full before:bg-[#aad302] before:left-0 before:w-full before:h-full before:duration-500 before:bg-opacity-80 hover:before:bottom-0">
+                <span class="z-10 relative duration-500">
+                  <i class="bi-chevron-right"> </i>
+                </span>
+                <span class="z-10 relative duration-500"> Let's Talk </span>
+              </a>
+            </div>
+          </div>
+          <!-- --------- Drawer -->
+        </div>
+      </header>
+    <!-- header End -->
+
+    <!-- Page heading start -->
+    <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3 pt_120 pb_120">
+      <div class="flex justify-center">
+        <div>
+          <div class="text-center">
+            <h1 class="lg:text-6xl sm:text-4xl text-3xl text-white lg:mb-10 sm:mb-9 mb-6 font-bold">
+                Heritage Gala
+            </h1>
+            <ul class="flex items-center justify-center sm:flex-nowrap flex-wrap gap-3">
+              <li class="text-2xl font-caveat">
+                <a href="/" class="text-white"></a>
+              </li>
+              <li class="text-white text-2xl"></li>
+              <li class="text-clr_base font-caveat text-2xl">
+                "Cultural-Events"
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page heading end -->
+
+    <!-- --------- details start -->
+    <section class=" pb_120">
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+        <div class="lg:mb-[60px] mb-[50px] w-full relative" data-aos="fade-up" data-aos-duration="1000">
+          <img src="https://www.visionvivaah.com/blog/wp-content/uploads/2019/12/Event-organizer-for-cultural-shows.jpg" alt="img" class="w-full">
+          <div class="bg-[rgb(18_18_18)] rounded-tr-[30px] xl:p-[45px] lg:p-6 py-5 px-[12px] lg:absolute static bottom-0 left-0 w-full lg:w-auto">
+            <h3 class="text-white xl:mb-8 mb-6 capitalize sm:text-[32px] text-[26px] leading-[120%] font-semibold">
+              Event Info
+            </h3>
+            <div class="flex lg:gap-[100px] gap-5 xl:mb-9 mb-[22px]">
+              <div>
+                <div class=" xl:mb-[30px] mb-[14px]">
+                  <h5 class="font-medium text-white xl:mb-[10px] lg:mb-[5px] mb-[10px] capitalize text-xl leading-[130%]">
+                 Name
+                  </h5>
+                  <p class="text-clr_pra lg:text-base text-sm"> Robowar</p>
+                </div>
+                <div class=" xl:mb-[30px] mb-[14px]">
+                  <h5 class="font-medium text-white xl:mb-[10px] lg:mb-[5px] mb-[10px] capitalize text-xl leading-[130%]">
+                    Date
+                  </h5>
+                  <p class="text-clr_pra lg:text-base text-sm">Mar 19, 2024</p>
+                </div>
+              </div>
+              <div>
+                <div class=" xl:mb-[30px] mb-[14px]">
+                  <h5 class="font-medium text-white xl:mb-[10px] lg:mb-[5px] mb-[10px] capitalize text-xl leading-[130%]">
+                    Category
+                  </h5>
+                  <p class="text-clr_pra lg:text-base text-sm">
+                   Techanical-Events
+                  </p>
+                </div>
+                <div class=" xl:mb-[30px] mb-[14px]">
+                  <h5 class="font-medium text-white xl:mb-[10px] lg:mb-[5px] mb-[10px] capitalize text-xl leading-[130%]">
+                    Location
+                  </h5>
+                  <p class="text-clr_pra lg:text-base text-sm">
+                   GLA University , Mathura
+                  </p>
+                </div>
+              </div>
+            </div>
+            <ul class=" flex gap-4 ">
+              <li>
+                <a href="" class="w-[46px] h-[46px] bg-white rounded-full flex justify-center items-center hover:scale-90 duration-200 hover:bg-clr_base duration-500">
+                  <i class="bi-facebook text-clr_title"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="w-[46px] h-[46px] bg-white rounded-full flex justify-center items-center hover:scale-90 duration-200 hover:bg-clr_base duration-500">
+                  <i class="bi-twitter text-clr_title"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="w-[46px] h-[46px] bg-white rounded-full flex justify-center items-center  hover:scale-90 duration-200 hover:bg-clr_base duration-500">
+                  <i class="bi-linkedin text-clr_title"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="w-[46px] h-[46px] bg-white rounded-full flex justify-center items-center  hover:scale-90 duration-200 hover:bg-clr_base duration-500">
+                  <i class="bi-youtube text-clr_title"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div class="xl:mb-[60px] mb-10" data-aos="fade-up" data-aos-duration="1400">
+            <p class="xl:mb-7 mb-[15px] text-clr_pra">
+                The "E-Sports competition" at the Nexus event is a thrilling, multiplayer gaming tournament where skilled gamers from various online games come together to compete for top honors. Participants showcase their expertise, teamwork, and strategic thinking in a friendly yet competitive atmosphere. The event aims to celebrate the growing popularity of E-Sports and provide a platform for gamers to exhibit their talents, network, and learn from one another. The competition is typically divided into different categories, with various games and matches taking place throughout the event, culminating in exciting finals and award ceremonies.
+            </p>
+            <p class="text-clr_pra">
+              Objective: The primary objective of Robo-War is to design a robot that can effectively navigate and defeat opponents in a controlled environment. This requires participants to develop strong programming and engineering skills, as well as strategic thinking and problem-solving abilities.
+            </p>
+          </div>
+          <div class="xl:mb-[60px] mb-10" data-aos="fade-up" data-aos-duration="1600">
+            <h3 class="xl:text-[32px] xl:mb-[30px] mb-5 text-[26px] text-white capitalize font-semibold">
+              Challenge
+            </h3>
+            <p class="xl:mb-7 mb-[15px] text-clr_pra">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable. If you are going to use a passage of Lorem
+              Ipsum, you need to be sure there isn't anything embarrassing
+              hidden in the middle of text. All the Lorem Ipsum generators on
+              the Internet tend to repeat predefined chunks as necessary, making
+              this the first true generator on the Internet.
+            </p>
+            <ul class="">
+              <li class="flex items-center gap-[10px] relative text-base text-clr_pra sm:pl-4 xl:mb-5 mb-[10px]">
+                <span class="min-w-[6px] h-[6px] rounded-full bg-clr_base"></span>
+                <span>
+                    Time constraints: Participants often have a limited timeframe (ranging from a few hours to 48 hours or more) to conceptualize, design, and develop their projects.
+                </span>
+              </li>
+              <li class="flex items-center gap-[10px] relative text-base text-clr_pra sm:pl-4 xl:mb-5 mb-[10px]">
+                <span class="min-w-[6px] h-[6px] rounded-full bg-clr_base"></span>
+                <span>
+                    Technical complexity: Hackathons may require participants to work with unfamiliar technologies or programming languages, pushing their skills and knowledge to the limit.
+                </span>
+              </li>
+              <li class="flex items-center gap-[10px] relative text-base text-clr_pra sm:pl-4">
+                <span class="min-w-[6px] h-[6px] rounded-full bg-clr_base"></span>
+                <span>
+                    Problem-solving: Participants must identify and solve real-world problems using technology, often in a competitive environment.
+                </span>
+              </li>
+            </ul>
+          </div>
+        
+          <div class="flex items-center xl:gap-[30px] sm:gap-5 gap-[14px] flex-wrap sm:flex-nowrap" data-aos="fade-up" data-aos-duration="2000">
+            <div class="w-full">
+              <img src="https://www.gla.ac.in/uploads/SmallImages/481pg_1R6A8637.jpg" alt="img" class="rounded-lg w-full hover:scale-90  cursor-pointer duration-700">
+            </div>
+            <div class="w-full">
+              <img src="https://i.ytimg.com/vi/QkJ1Cg401q4/maxresdefault.jpg" alt="img" class="rounded-lg hover:scale-90  cursor-pointer duration-700 w-full">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------- details start -->
+
+    <!-- --------- Related Work start -->
+    <section class="bg-common_bg pt_120 pb_120">
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+        <!-- --------- Heading -->
+        <div class="text-center max-w-[920px] mx-auto md:mb-[60px] sm:mb-[50px] mb-[45px]">
+          <p class="text-2xl font-caveat text-clr_base relative flex justify-center items-center sm:gap-6 gap-[14px] mx-auto mb-[30px]" data-aos="fade-down" data-aos-duration="1000">
+            <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+            Event
+            <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+          </p>
+          <h2 class="font-medium lg:text-6xl md:text-5xl sm:text-4xl text-[29px] text-white lg:leading-[120%] md:leading-tight leading-9" data-aos="fade-up" data-aos-duration="1200">
+            Related Events
+          </h2>
+        </div>
+        <!-- --------- Heading -->
+
+        <!-- ---------- Card Group -->
+        <div class="md:columns-2 col-span-1 xxl:gap-[58px] lg:gap-12 md:gap-[30px]">
+          <!-- card 1 -->
+          <div class="project__item overflow-hidden group xl:mb-[60px] lg:mb-[50px] mb-[30px]" data-aos="fade-up" data-aos-duration="1000">
+            <a href="assets/img/project/pro1.png" class="imgc overflow-hidden lg:mb-[30px] mb-[20px] block w-full cursor-pointer">
+              <img src="https://media.gettyimages.com/id/1363887012/photo/2021-22-drl-algorand-world-championship-season-drone-racing-league-vegas-championship-race.jpg?s=1024x1024&w=gi&k=20&c=2-ajFzP0zbcIDcsnXvks20RYwF4kriFEoV0zVUs7f64=" alt="img" class="w-full overflow-hidden duration-500 rounded-[10px] group-hover:scale-105">
+            </a>
+            <div class="content flex items-center justify-between gap-1">
+              <a href="./protfolioDetails.html" class="left__cont">
+                <span class="text-clr_base xl:mb-4 mb-2 block uppercase xl:text-lg text-base">
+                 Techanical-Events
+                </span>
+                <h3 class="xl:text-[30px] sm:text-2xl text-xl font-semibold text-white">
+               Drone-Competitons
+                </h3>
+              </a>
+              <a href="assets/img/project/pro1.png" class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#1D1D1D] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer">
+                <i class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"></i>
+              </a>
+            </div>
+          </div>
+          <!-- card 1 -->
+
+          <!-- card 2 -->
+          <div class="overflow-hidden group xl:mb-[60px] lg:mb-[50px] mb-[30px]" data-aos="fade-up" data-aos-duration="1000">
+            <a href="assets/img/project/pro3.png" class="imgc overflow-hidden lg:mb-[30px] mb-[20px] block w-full cursor-pointer">
+              <img src="https://as2.ftcdn.net/v2/jpg/01/69/65/95/1000_F_169659584_9ceyeq50tXPgHxXbemAMYCVWTXCZDGlC.jpg" alt="img" class="w-full overflow-hidden duration-500 rounded-[10px] group-hover:scale-105">
+            </a>
+
+            <div class="content flex items-center justify-between gap-1">
+              <a href="./protfolio.html" class="left__cont">
+                <span class="text-clr_base xl:mb-4 mb-2 block uppercase xl:text-lg text-base">
+                Sports-Events
+                </span>
+                <h3 class="xl:text-[30px] sm:text-2xl text-xl font-semibold text-white">
+                 E-Commerce Sports
+                </h3>
+              </a>
+              <a href="assets/img/project/pro3.png" class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#1D1D1D] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer">
+                <i class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"></i>
+              </a>
+            </div>
+          </div>
+          <!-- card 2 -->
+        </div>
+      </div>
+    </section>
+    <!-- --------- Related Work end -->
+
+    <!-- ---------- Footer -->
+    <footer>
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+        <div class="pt_120 pb-[120px]">
+          <div class="fl text-[10.5vw] uppercase font-medium leading-none w-full xl:mb-[60px] sm:mb-10 mb-5 border border-clr_cusborder rounded-lg text-center p-[10px] text-white" data-aos="fade-up" data-aos-duration="1000">
+            Get In Touch
+          </div>
+          <div class="flex md:flex-row flex-col justify-between gap-4">
+            <div class="basis-1/2 shrink">
+              <div>
+                <p class="xl:mb-[60px] lg:mb-10 mb-[10px] lg:text-2xl sm:text-lg text-[17px] text-white max-w-lg">
+                 Contact Us To Be a Part Of NEXUS
+                </p>
+                <a href="" class="text-white lg:text-4xl sm:text-[28px] text-lg underline capitalize">
+                  <span class="__cf_email__" >ss8523263@gmail.com</span>
+                </a>
+              </div>
+            </div>
+            <div class="basis-1/2 shrink">
+              <div>
+                <div class="grid sm:grid-cols-2 gap-4">
+                  <div>
+                    <a href="" class="lg:py-[26px] py-[14px] lg:px-7 px-6 rounded-[10px] border border-clr_cusborder flex items-center justify-between text-white lg:text-2xl text-xl duration-500 hover:bg-clr_base hover:border-clr_base hover:text-clr_title group">
+                      Facebook
+                      <i class="bi-arrow-right text-white text-[22px] duration-500 group-hover:text-clr_title"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="" class="lg:py-[26px] py-[14px] lg:px-7 px-6 rounded-[10px] border border-clr_cusborder flex items-center justify-between text-white lg:text-2xl text-xl duration-500 hover:bg-clr_base hover:border-clr_base hover:text-clr_title group">
+                      Twitter
+                      <i class="bi-arrow-right text-white text-[22px] duration-500 group-hover:text-clr_title"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="" class="lg:py-[26px] py-[14px] lg:px-7 px-6 rounded-[10px] border border-clr_cusborder flex items-center justify-between text-white lg:text-2xl text-xl duration-500 hover:bg-clr_base hover:border-clr_base hover:text-clr_title group">
+                      Linkdin
+                      <i class="bi-arrow-right text-white text-[22px] duration-500 group-hover:text-clr_title"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="" class="lg:py-[26px] py-[14px] lg:px-7 px-6 rounded-[10px] border border-clr_cusborder flex items-center justify-between text-white lg:text-2xl text-xl duration-500 hover:bg-clr_base hover:border-clr_base hover:text-clr_title group">
+                      Instagram
+                      <i class="bi-arrow-right text-white text-[22px] duration-500 group-hover:text-clr_title"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" bg-common_bg bg-no-repeat bg-center bg-cover">
+        <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+          <div class="flex flex-col lg:flex-row items-center justify-between py-[34px] lg:flex-nowrap gap-4">
+            <p class="text-white text-lg">
+           A Desing Made With Love By - 
+              <a href="" class="text-clr_base"> Droid Club. </a>
+              NEXUS.
+            </p>
+            <ul class="terms flex gap-[38px]">
+              <li>
+                <a href="" class="text-lg text-white duration-500 hover:text-clr_base">
+                  Terms &amp; Condition
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-lg text-white duration-500 hover:text-clr_base">
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
+            <a href="cultural.html" class=" w-10 h-[50px] bg-clr_base rounded-[5px] flex justify-center items-center">
+              <i class="bi-arrow-up text-lg"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script data-cfasync="false" src="js/email-decode.min.js"></script><script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+  
+
+</body></html>
